@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adithya Gelli - Personal Portfolio Website</title>
+    <link rel="icon" type="image/x-icon" href="my1.png">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font awesome -->
+    <link
+        href="https://cdn.jsdelivr.net/gh/eliyantosarage/font-awesome-pro@main/fontawesome-pro-6.5.1-web/css/all.min.css"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header section -->
+    <div id="header">
+        <div class="container">
+            <nav class="navbar">
+                <p class="logo-text"><span class="spl-text">Adi</span>thya.</p>
+                <div class="sidemenu">
+                    <ul id="sidemenu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#works">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <div class="wrapper">
+                    <div class="static-txt">Web</div>
+                    <ul class="dynamic-txts">
+                        <li><span> Developer...</span></li>
+                        <li><span> Designer...</span></li>
+                        <li><span> Developer...</span></li>
+                        <li><span> Designer...</span></li>
+                    </ul>
+                </div>
+                <h1>
+                    Hi, I'm <span>Adithya</span> <br />
+                    Gelli From India    
+                </h1>
+            </div>
+            <br>
+            <br>
+            <a class="btn-hire" href="#contact">HIRE ME</a>
+            <a class="download-cv"
+                href="https://drive.google.com/file/d/1_M9ssC0hiHlZOV6Xmnn2sQHmnidsGA8N/view?usp=sharing"
+                target="_blank">DOWNLOAD CV</a>
+
+        </div>
+    </div>
+
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As an ambitious and adaptable individual I look forward to pursue my
+                         career as a full stack developer. With a strong foundation in programming and a keen
+                        interest in mastering both front-end and back-end technologies. I am also skilled in the domain of sales and marketing.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Training</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Technical Skills</span><br>HTML, CSS, JS, C, BootStrap, Python, Django, Sql.</li>
+                            <li><span>Power Skills</span><br>
+                                <i class="fa-solid fa-circle-small" style="color:#ababab;"></i> Adaptable for changes<br>
+                                <i class="fa-solid fa-circle-small" style="color:#ababab;"></i> Always eager to learn new things <br>
+                                <i class="fa-solid fa-circle-small" style="color:#ababab;"></i> Quick to adjust to new situations<br>
+                                <i class="fa-solid fa-circle-small" style="color:#ababab;"></i> Capable of identifying root causes<br>
+                                <i class="fa-solid fa-circle-small" style="color:#ababab;"></i> Self-motivator<br>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Full stack developer | Mar'22 </span><br>Training on Full stack developer in Telugu web guru
+                            training center.</li>
+                            <li><span>DBMS | Jan'23</span><br>summer training in E-Box on DBMS.</li>
+                            <li><span>human resource management | Nov'23</span><br>human resource management course at LPU</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.Tech CSE | 2021-Present</span>
+                                <br>Lovely Professional University,Phagwara,IN
+                                <br>CGPA : 6.7</li>
+                            <li><span>Intermediate | 2019-2021</span>
+                                <br>Sri Chaitanya Junior College,Vijayawada,IN
+                                <br>MARKS : 840/1000</li>
+                            <li><span>High school | 2019</span>
+                                <br> Narayana Junior School,Amalapuram,IN
+                                <br>CGPA : 9.7</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>Building interactive web experiences from content and style (HTML/CSS) to dynamic
+                         functionality (JavaScript) with frameworks like Django.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-server"></i>
+                    <h2>SQL</h2>
+                    <p>Driven by data, leveraging SQL expertise to craft insights and optimize databases</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python Developer</h2>
+                    <p>Passionate Python developer with [experience level] in diverse areas like [expertise areas] 
+                        seeking to leverage skills for [career goal].</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Works section -->
+    <div id="works">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="works-list">
+                <div class="work">
+                    <img src="mycar.jpg" alt="work-1">
+                    <div class="layer">
+                        <h3>Car Rental Website</h3>
+                        <p>The main aim of this website is to create a platform for users to rent a car of choice.</p>
+                        <a href="https://adithyagelli.github.io/carrental-system/Home" target="_blank"><i
+                                class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="number.jpg" alt="work-2">
+                    <div class="layer">
+                        <h3>Number Conversion</h3>
+                        <p>tkinter and json were used to create a screen in python who's main aim is to convert numbers from one form to 
+                            another along with the solution.  </p>
+                        <a href="https://github.com/adithyagelli/adithya/blob/main/numberconversion.py"
+                            target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="project2.jpg" alt="work-3">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>This project is a brief description about me, the services provided, projects completed and my contact details.</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/adithyagelli" target="_blank" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- Contact section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-light fa-envelope"></i>adithya.gelli7899@gmail.com</p>
+                    <p><i class="fa-light fa-phone"></i></i>+91 7997874466</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/adithyagelli" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/adithya.gelli7899/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://t.me/+917997874466" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="https://www.linkedin.com/in/gelli-adithya/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <p id="success-message" style="display: none; color: #fff; font-family: sans-serif; font-weight: 500;">
+                            Thank you for submitting the form!
+                        </p>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©️2023Adithya</p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const form = document.getElementById('contact-form');
+        const successMessage = document.getElementById('success-message');
+      
+        form.addEventListener('submit', function(event) {
+          event.preventDefault(); 
+          console.log('Submitting form...');
+          successMessage.style.display = 'block';
+        });
+      </script>
+</body>
+
+</html>
